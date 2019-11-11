@@ -1,0 +1,127 @@
+body { 
+	background-color: #ccc; 
+	text-align:center; 
+	margin-top: 80px;
+}
+
+#main { 
+	position: relative;
+	margin-top:15px;
+}
+#first { 
+	width: 308px; 
+	margin-top: 0px; 
+	padding: 28px 25px; 
+	background-color: white; 
+	border: 1px solid black; 
+	border-radius: 5; 
+	position : absolute; 
+	left: 50%;
+	margin-left:-180px; 
+	top:0px; 
+}
+input[type=text],[type=password] { 
+	padding: 7px;
+	width: 100%; 
+	height: 40px; 
+	margin-top: 15px; 
+	font-size: 18px;
+}
+
+
+h2 {
+	margin-top: 0;
+}
+input[type=submit]{
+	background: linear-gradient(to bottom, #22abe9 5%, #36caf0 100%);
+	box-shadow: inset 0px 1px 0px 0px #7bdcf4;
+	border: 1px solid #0F799E;
+	color: #ffffff;
+	width: 306px; 
+	height: 40px; 
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	text-shadow: 0px 1px 0px #13506D;
+}
+
+input[type=submit]:hover{
+	background: linear-gradient(to bottom, #36caf0 5%, #22abe9 100%);
+}
+.error{
+	color:red;
+}
+.btn{
+	float:right;
+	margin-right:300px; 
+	padding: 5px;
+	color:blue;
+	cursor: pointer;
+}
+.btn1{
+	float:right;
+	margin: 4px;
+	padding: 5px;
+	color:red;
+	cursor: pointer;
+}
+input{
+	padding: 0px 20px;
+	width: 200px;
+	height: 30px;
+	font-size: 22px;
+	
+}
+button{
+	padding: 0px 20px;
+	width: 100px;
+	height: 30px;
+	font-size: 17px;
+}
+.search{
+	margin: 0px 500px;
+}
+.export input{
+	padding: 0px 20px;
+	width: 100px;
+	height: 30px;
+	font-size: 10px;
+}
+
+@media  (max-width:500px)
+{
+#first { 
+	width: 200px; 
+	margin-top: 0px; 
+	padding: 28px 30px; 
+	background-color: white; 
+	border: 1px solid black; 
+	border-radius: 5; 
+	position : absolute; 
+	left: 50%;
+	margin-left:-130px; 
+	top:0px; 
+}
+  
+  input[type=text],[type=password] { 
+	padding: 7px;
+	width: 90%; 
+	height: 40px; 
+	margin-top: 15px; 
+	font-size: 18px;
+}	
+input[type=submit]{
+	background: linear-gradient(to bottom, #22abe9 5%, #36caf0 100%);
+	box-shadow: inset 0px 1px 0px 0px #7bdcf4;
+	border: 1px solid #0F799E;
+	color: #ffffff;
+	width: 90%; 
+	height: 40px; 
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	text-shadow: 0px 1px 0px #13506D;
+}
+}

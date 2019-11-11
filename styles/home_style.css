@@ -1,0 +1,303 @@
+body{
+	line-height: 1;
+	background-color: #e6e6fa;
+}
+.container{
+	margin: 0px;
+	padding: 0px;
+	background-color: #e6e6fa;
+
+}
+#head_wrap{
+	width: 100%;
+	padding:10px;
+	background:#afeeee;
+	margin: 0 auto;
+	height: 30px;
+	border-bottom: 2px solid brown;
+}
+#header{
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+
+}
+#menu{
+	line-height: 20px;
+	padding: 0px;
+}
+#menu li{
+	display: inline;
+	list-style: none;
+
+}
+#menu a{
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+	color: gray;
+	font-size: 18px;
+}
+#form1{
+overflow: hidden;
+background-color: #e9e9e9;
+float: right;
+
+}
+#form1  input{
+	width: 120px;
+    height: 30px;
+    padding: 0px;
+    float: left;
+    margin-right: 2px;
+}
+#form1  button{
+	width: 100px;
+    padding: 10px;
+    float: right;
+}
+#form1  button:hover{
+	background-color: blue;
+	color: white;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+#user_timeline{
+	background-color: #afeeee;
+	width: 250px;
+	float: left;
+	height: 100%;
+	border-right: 1px solid black;
+}
+ #user_details{
+ 	padding: 10px;
+ }
+ #user_details img{
+ 	border:2px solid black;
+ 	border-radius: 20px;
+ }
+ #user_details p
+ {
+ 	margin-bottom: 10px;
+ 	padding: 2px;
+ }
+ #user_details a{
+ 	color: brown;
+ 	font-size: 20px;
+ 	text-decoration: none;
+
+ }
+  #user_details a:hover{
+ 	color: black;
+ 	font-size: 20px;
+ 	text-decoration: underline;
+ 	font-weight: bolder;
+
+ }
+ #menu{
+ 	line-height: 35px;
+ 	padding: 0;
+ 	margin: 0;
+ 	float: left;
+ }
+ #menu li{
+ 	display: inline;
+ 	list-style: none;
+ }
+ #menu a{
+ 	margin: 5px;
+ 	padding: 5px;
+ 	text-decoration: none;
+ 	color: gray;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ }
+ #menu a:hover{
+ 	color: brown;
+ 	font-weight: bolder;
+ 	text-decoration: none;
+ }
+ #menu strong{
+ 	font-size: 20px;
+ 	text-decoration: underline;
+ 	color: tomato;
+ }
+ #user_mention{
+
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+ }
+  #user_mention button{
+  	cursor: pointer;
+  }
+ #user_mention button:hover{
+ 	background-color: #ccc;
+ }
+ #content_timeline{
+ 	float: right;
+ 	width: 700px;
+ 	padding: 10px;
+
+ }
+ .ff input{
+ 	margin-bottom: 5px;
+
+
+ }
+ #f input{
+    padding: 7px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+ }
+
+ #f select{
+    padding: 8px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+ }
+ #f select:hover{
+	background-color: #fff8dc;
+}
+#f input:hover{
+	background-color: #fff8dc;
+}
+#f textarea:hover{
+	background-color: #fff8dc;
+}
+#f h2{
+	color: grau;
+	font-family: Sansational;
+}
+#pagination{
+	margin-top: 20px;
+}
+#pagination a{
+	color:blue;
+	text-decoration: none;
+	font-size: 18px;
+	margin: 5px;
+}
+#pagination a:hover{
+	color:brown;
+	font-weight: bold;
+}
+#posts{
+	width: 600px;
+	background:#afeeee;
+	padding: 10px;
+	line-height: 20px;
+	border:1px solid black;
+	text-align: justify;
+}
+#posts img{
+	float: left;
+	padding-top: 5px;
+	padding-right: 10px;
+
+}
+ #reply textarea{
+    padding: 8px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    background:#f5f5dc;
+
+ }
+ #reply input{
+    padding: 8px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+ }
+ #reply input:hover{
+    padding:8px;
+    background:#f5f5dc;
+    border-radius: 5px;
+    font-weight: bolder;
+ }
+ #comments{
+ 	background: #5f9ea0;
+ 	padding: 5px;
+ 	width: 600px;
+ 	border-bottom: 2px solid #f0fff0;
+ }
+ #comments span{
+    color: #fff8dc;
+ }
+ #comments h3{
+ 	color: #ffd700;
+ }
+ #comments p{
+ 	line-height: 20px;
+ 	font-size: 16px;
+ 	padding: 5px;
+ }
+#user_profile{
+	padding: 10px;
+	margin-left: 50px;
+	background: #ffb6c1;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+#user_profile img{
+	border: 2px solid gray;
+	float: right;
+}
+#user_profile p{
+margin:5px;
+}
+#user_profile button{
+	margin-top: 10px;
+}
+#user_profile h3{
+	color: blue;
+}
+#msg{
+	padding: 10px;
+	line-height: 20px;
+	background:pink;
+	margin: 0 auto;
+}
+#msg th{
+	border: 3px solid green;
+	background:white;
+}
+#msg table,td{
+	padding: 10px;
+
+}
+#msg a{
+	color: blue;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+#msg a:hover{
+	color: brown;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#footer{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	background-color: #1e90ff;
+	border-top:5px solid brown;
+	clear: both;
+}
+
+#footer h2{
+	text-align: center;
+	padding-top: 3px;
+	color: white;
+}
